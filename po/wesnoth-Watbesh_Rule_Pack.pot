@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Watbesh_Rule_Pack-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-12 18:31-0400\n"
+"POT-Creation-Date: 2012-11-22 19:59-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,6 +50,15 @@ msgstr ""
 msgid ""
 "You can re-generate your faction (leader and recruits) <span color='#FF0000'>at turn 1 before you start moving leader or recruiting</span>.You will have fewer recruits temporarily after re-generating.\n"
 "Leaders in this Era:\n"
+"All selectable leader from Default Era\n"
+"Recruits in this Era:\n"
+"All recruits from Default Era"
+msgstr ""
+
+#: ./Watbesh_Rule_Pack/extra/_rf_utils_extra.cfg:45
+msgid ""
+"You can re-generate your faction (leader and recruits) <span color='#FF0000'>at turn 1 before you start moving leader or recruiting</span>.You will have fewer recruits temporarily after re-generating.\n"
+"Leaders in this Era:\n"
 "All the core units\n"
 "Recruits in this Era:\n"
 "All the core units"
@@ -90,23 +99,30 @@ msgstr ""
 msgid "More-trait Era"
 msgstr ""
 
+#. [era]: id=wat_rf_extra_hardcore_{WAT_VERSION}
 #. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
 #. [era]: id=wat_rf_extra_{WAT_VERSION}
 #. [era]: id=wat_rf_{WAT_VERSION}
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:5 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:26 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:194 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:301 ./Watbesh_Rule_Pack/mods/rf.cfg:5
+#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:5 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:26 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:47 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:194 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:301 ./Watbesh_Rule_Pack/mods/rf.cfg:5
 msgid "Random-factions Era"
 msgstr ""
 
 #. [multiplayer_side]: id=Random_Faction, type=Fog Clearer
 #. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Default
+#. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Hardcore
 #. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Lions
-#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:10 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:31 ./Watbesh_Rule_Pack/mods/rf.cfg:10
+#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:10 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:31 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:52 ./Watbesh_Rule_Pack/mods/rf.cfg:10
 msgid "Random-faction"
 msgstr ""
 
-#. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
+#. [era]: id=wat_rf_extra_hardcore_{WAT_VERSION}
 #: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:26
+msgid " Extra Hardcore"
+msgstr ""
+
+#. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
+#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:47
 msgid " Extra (Lions)"
 msgstr ""
 
