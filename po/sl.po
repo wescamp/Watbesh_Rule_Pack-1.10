@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Watbesh_Rule_Pack-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-22 19:59-0500\n"
+"POT-Creation-Date: 2012-12-05 12:11+0100\n"
 "PO-Revision-Date: 2012-10-12 18:31-0400\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -13,60 +13,37 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3);\n"
 
-#. [message]: speaker=narrator
 #. [multiplayer_side]: id=Loyalists, type=Lieutenant
 #: Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:61
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:102
 msgid "Loyalists"
 msgstr ""
 
-#. [message]: speaker=narrator
 #. [multiplayer_side]: id=Rebels, type=Elvish Captain
 #: Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:76
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:103
 msgid "Rebels"
 msgstr ""
 
-#. [message]: speaker=narrator
 #. [multiplayer_side]: id=Northerners, type=Orcish Warrior
 #: Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:91
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:104
 msgid "Northerners"
 msgstr ""
 
-#. [message]: speaker=narrator
 #. [multiplayer_side]: id=Undead, type=Dark Sorcerer
 #: Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:105
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:105
 msgid "Undead"
 msgstr ""
 
-#. [message]: speaker=narrator
 #. [multiplayer_side]: id=Knalgan Alliance, type=Dwarvish Steelclad
 #: Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:120
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:106
 msgid "Knalgan Alliance"
 msgstr ""
 
-#. [message]: speaker=narrator
 #. [multiplayer_side]: id=Drakes, type=Drake Flare
 #: Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:139
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:107
 msgid "Drakes"
 msgstr ""
 
 #: Watbesh_Rule_Pack/extra/_rf_utils_extra.cfg:20
-msgid ""
-"You can re-generate your faction (leader and recruits) <span "
-"color='#FF0000'>at turn 1 before you start moving leader or recruiting</"
-"span>.You will have fewer recruits temporarily after re-generating.\n"
-"Leaders in this Era:\n"
-"All selectable leader from Default Era\n"
-"Recruits in this Era:\n"
-"All recruits from Default Era"
-msgstr ""
-
-#: Watbesh_Rule_Pack/extra/_rf_utils_extra.cfg:45
 msgid ""
 "You can re-generate your faction (leader and recruits) <span "
 "color='#FF0000'>at turn 1 before you start moving leader or recruiting</"
@@ -103,8 +80,8 @@ msgstr ""
 #. [message]: speaker=narrator
 #: Watbesh_Rule_Pack/extra/hide_extra.cfg:5
 #: Watbesh_Rule_Pack/macros/hide_utils.cfg:27
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:91
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:99
+#: Watbesh_Rule_Pack/macros/hide_utils.cfg:129
+#: Watbesh_Rule_Pack/macros/hide_utils.cfg:137
 #: Watbesh_Rule_Pack/mods/hide.cfg:5
 msgid "Hide-Your-Faction Era"
 msgstr ""
@@ -125,7 +102,7 @@ msgstr ""
 msgid "More-trait Era"
 msgstr ""
 
-#. [era]: id=wat_rf_extra_hardcore_{WAT_VERSION}
+#. [era]: id=wat_rf_classic_{WAT_VERSION}
 #. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
 #. [era]: id=wat_rf_extra_{WAT_VERSION}
 #. [era]: id=wat_rf_{WAT_VERSION}
@@ -133,24 +110,26 @@ msgstr ""
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:5
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:26
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:47
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:194
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:301 Watbesh_Rule_Pack/mods/rf.cfg:5
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:220
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:327 Watbesh_Rule_Pack/mods/rf.cfg:5
+#: Watbesh_Rule_Pack/mods/rf.cfg:29
 msgid "Random-factions Era"
 msgstr ""
 
 #. [multiplayer_side]: id=Random_Faction, type=Fog Clearer
+#. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Classic
 #. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Default
-#. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Hardcore
 #. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Lions
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:10
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:31
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:52 Watbesh_Rule_Pack/mods/rf.cfg:10
+#: Watbesh_Rule_Pack/mods/rf.cfg:34
 msgid "Random-faction"
 msgstr ""
 
-#. [era]: id=wat_rf_extra_hardcore_{WAT_VERSION}
+#. [era]: id=wat_rf_classic_{WAT_VERSION}
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:26
-msgid " Extra Hardcore"
+msgid " Extra (Classic)"
 msgstr ""
 
 #. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
@@ -158,19 +137,14 @@ msgstr ""
 msgid " Extra (Lions)"
 msgstr ""
 
-#. [trait]: id=wat_fool
+#. [trait]: id=wat_fool, description={WAT_STR_ZERO_UPKEEP}
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:6
 msgid "fool"
 msgstr ""
 
-#. [trait]: id=wat_fool
+#. [trait]: id=wat_fool, description={WAT_STR_ZERO_UPKEEP}
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:7
 msgid "female^fool"
-msgstr ""
-
-#. [trait]: id=wat_fool
-#: Watbesh_Rule_Pack/macros/fool_utils.cfg:8
-msgid "Zero upkeep"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -183,7 +157,7 @@ msgstr ""
 #. [set_menu_item]: id=description
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:117
 #: Watbesh_Rule_Pack/macros/mt_utils.cfg:300
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:296
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:322
 msgid "description"
 msgstr ""
 
@@ -202,232 +176,34 @@ msgid ""
 "killed."
 msgstr ""
 
-#. [option]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:32
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:109
-msgid "Random"
-msgstr ""
-
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:92
+#: Watbesh_Rule_Pack/macros/hide_utils.cfg:130
 msgid ""
 "You can choose your faction without letting your opponents know it.\n"
 "by watbesh"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:100
+#: Watbesh_Rule_Pack/macros/hide_utils.cfg:138
 msgid "Choose faction:"
 msgstr ""
 
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:127
-msgid "Lieutenant"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:128
-msgid "Swordsman"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:129
-msgid "Pikeman"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:130
-msgid "Javelineer"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:131
-msgid "Shock Trooper"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:132
-msgid "Longbowman"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:133
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:143
-msgid "White Mage"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:134
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:144
-msgid "Red Mage"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:137
-msgid "Elvish Captain"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:138
-msgid "Elvish Hero"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:139
-msgid "Elvish Ranger"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:140
-msgid "Elvish Marksman"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:141
-msgid "Elvish Druid"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:142
-msgid "Elvish Sorceress"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:145
-msgid "Elder Wose"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:148
-msgid "Orcish Warrior"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:149
-msgid "Troll"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:150
-msgid "Troll Rocklobber"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:151
-msgid "Orcish Crossbowman"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:152
-msgid "Orcish Slayer"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:155
-msgid "Dark Sorcerer"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:156
-msgid "Revenant"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:157
-msgid "Deathblade"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:158
-msgid "Bone Shooter"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:159
-msgid "Necrophage"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:162
-msgid "Dwarvish Steelclad"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:163
-msgid "Dwarvish Thunderguard"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:164
-msgid "Dwarvish Stalwart"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:165
-msgid "Rogue"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:166
-msgid "Trapper"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:169
-msgid "Drake Flare"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:170
-msgid "Fire Drake"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:171
-msgid "Drake Arbiter"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:172
-msgid "Drake Thrasher"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:173
-msgid "Drake Warrior"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:174
-msgid "Saurian Oracle"
-msgstr ""
-
-#. [switch]
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:175
-msgid "Saurian Soothsayer"
-msgstr ""
-
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:196
+#: Watbesh_Rule_Pack/macros/hide_utils.cfg:159
 #: Watbesh_Rule_Pack/macros/mt_utils.cfg:284
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:218
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:244
 msgid "CAUTION"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/hide_utils.cfg:197
+#: Watbesh_Rule_Pack/macros/hide_utils.cfg:160
 msgid ""
-"side $side_number| is controlled by AI. This side have a random faction."
+"side $side_number| is controlled by AI. This side gets a Random faction."
 msgstr ""
 
 #. [option]
 #: Watbesh_Rule_Pack/macros/mt_utils.cfg:70
 msgid "Nothing"
-msgstr ""
-
-#. [option]
-#: Watbesh_Rule_Pack/macros/mt_utils.cfg:241
-msgid "{NAME}"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -473,8 +249,19 @@ msgid ""
 "Peasant, Ruffian, Sergeant, Thug, Woodsman, Young Ogre"
 msgstr ""
 
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:45
+msgid ""
+"You can re-generate your faction (leader and recruits) <span "
+"color='#FF0000'>at turn 1 before you start moving leader or recruiting</"
+"span>.You will have fewer recruits temporarily after re-generating.\n"
+"Leaders in this Era:\n"
+"All selectable leader from Default Era\n"
+"Recruits in this Era:\n"
+"All recruits from Default Era"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:195
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:221
 msgid ""
 "You can re-generate your faction (leader and recruits) <span "
 "color='#FF0000'>at turn 1 before you start moving leader or recruiting</"
@@ -483,33 +270,38 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:219
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:245
 msgid ""
 "side $side_number| is controlled by AI. This side cannot re-generate the "
 "faction."
 msgstr ""
 
 #. [set_menu_item]: id=reorganize
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:313
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:339
 msgid "Re-generate Faction"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:334
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:360
 msgid "You will be able to recruit $array_length_minus_one| types of units."
 msgstr ""
 
 #. [option]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:337
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:363
 msgid "Re-generate faction"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:344
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:370
 msgid "Your faction is re-generated."
 msgstr ""
 
 #. [option]: speaker=narrator
-#: Watbesh_Rule_Pack/macros/rf_utils.cfg:356
+#: Watbesh_Rule_Pack/macros/rf_utils.cfg:382
 msgid "Cancel"
+msgstr ""
+
+#. [era]: id=wat_rf_classic_{WAT_VERSION}
+#: Watbesh_Rule_Pack/mods/rf.cfg:29
+msgid " Classic"
 msgstr ""
