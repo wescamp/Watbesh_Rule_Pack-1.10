@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Watbesh_Rule_Pack-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-05 12:11+0100\n"
+"POT-Creation-Date: 2013-01-10 00:37-0500\n"
 "PO-Revision-Date: 2012-10-12 18:31-0400\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -55,8 +55,12 @@ msgstr ""
 
 #. [era]: id=wat_fool_extra_{WAT_VERSION}
 #. [era]: id=wat_fool_{WAT_VERSION}
+#. [era]: id=wat_luck_extra_modest_{WAT_VERSION}
+#. [era]: id=wat_luck_extra_{WAT_VERSION}
 #. [message]: speaker=narrator
 #: Watbesh_Rule_Pack/extra/fool_extra.cfg:5
+#: Watbesh_Rule_Pack/extra/luck_extra.cfg:5
+#: Watbesh_Rule_Pack/extra/luck_extra.cfg:13
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:102
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:122
 #: Watbesh_Rule_Pack/mods/fool.cfg:5
@@ -65,10 +69,12 @@ msgstr ""
 
 #. [era]: id=wat_fool_extra_{WAT_VERSION}
 #. [era]: id=wat_hide_extra_{WAT_VERSION}
+#. [era]: id=wat_luck_extra_{WAT_VERSION}
 #. [era]: id=wat_mt_extra_{WAT_VERSION}
 #. [era]: id=wat_rf_extra_{WAT_VERSION}
 #: Watbesh_Rule_Pack/extra/fool_extra.cfg:5
 #: Watbesh_Rule_Pack/extra/hide_extra.cfg:5
+#: Watbesh_Rule_Pack/extra/luck_extra.cfg:5
 #: Watbesh_Rule_Pack/extra/mt_extra.cfg:5
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:5
 msgid " Extra"
@@ -92,6 +98,11 @@ msgstr ""
 msgid "Hidden-Faction"
 msgstr ""
 
+#. [era]: id=wat_luck_extra_modest_{WAT_VERSION}
+#: Watbesh_Rule_Pack/extra/luck_extra.cfg:13
+msgid " Extra (Modest)"
+msgstr ""
+
 #. [era]: id=wat_mt_extra_{WAT_VERSION}
 #. [era]: id=wat_mt_{WAT_VERSION}
 #. [message]: speaker=narrator
@@ -102,6 +113,7 @@ msgid "More-trait Era"
 msgstr ""
 
 #. [era]: id=wat_rf_classic_{WAT_VERSION}
+#. [era]: id=wat_rf_extra_classic_{WAT_VERSION}
 #. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
 #. [era]: id=wat_rf_extra_{WAT_VERSION}
 #. [era]: id=wat_rf_{WAT_VERSION}
@@ -126,7 +138,7 @@ msgstr ""
 msgid "Random-faction"
 msgstr ""
 
-#. [era]: id=wat_rf_classic_{WAT_VERSION}
+#. [era]: id=wat_rf_extra_classic_{WAT_VERSION}
 #: Watbesh_Rule_Pack/extra/rf_extra.cfg:26
 msgid " Extra (Classic)"
 msgstr ""
@@ -136,12 +148,12 @@ msgstr ""
 msgid " Extra (Lions)"
 msgstr ""
 
-#. [trait]: id=wat_fool, description={WAT_STR_ZERO_UPKEEP}
+#. [trait]: id=wat_fool, description={WAT_STR_ZERO_UPKEEP} + {WAT_STR_AND}
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:6
 msgid "fool"
 msgstr ""
 
-#. [trait]: id=wat_fool, description={WAT_STR_ZERO_UPKEEP}
+#. [trait]: id=wat_fool, description={WAT_STR_ZERO_UPKEEP} + {WAT_STR_AND}
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:7
 msgid "female^fool"
 msgstr ""
@@ -155,6 +167,7 @@ msgstr ""
 
 #. [set_menu_item]: id=description
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:117
+#: Watbesh_Rule_Pack/macros/luck_utils.cfg:72
 #: Watbesh_Rule_Pack/macros/mt_utils.cfg:300
 #: Watbesh_Rule_Pack/macros/rf_utils.cfg:322
 msgid "description"
@@ -164,8 +177,8 @@ msgstr ""
 #: Watbesh_Rule_Pack/macros/fool_utils.cfg:123
 msgid ""
 "When you killed a unit, a unit on your side may appear. More likely if you "
-"finish expensive enemy unit with cheap unit. The unit will be slow and "
-"fragile, need more XP to level up.\n"
+"finish an expensive enemy unit with a cheap unit. The unit is slow and "
+"fragile, and needs more XP to level up.\n"
 "Exceptions:\n"
 " Killing a unit with <span style='italic'>plague</span> weapon special gives "
 "a regular walking corpse.\n"
@@ -173,6 +186,11 @@ msgid ""
 "span>)\n"
 " Unit will not appear if <span style='italic'>a leader</span> kills or is "
 "killed."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Watbesh_Rule_Pack/macros/hide_utils.cfg:28
+msgid "Choose Leader:"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -198,6 +216,30 @@ msgstr ""
 #: Watbesh_Rule_Pack/macros/hide_utils.cfg:160
 msgid ""
 "side $side_number| is controlled by AI. This side gets a Random faction."
+msgstr ""
+
+#. [era]: id=wat_luck_modest_{WAT_VERSION}
+#. [era]: id=wat_luck_{WAT_VERSION}
+#. [message]: speaker=narrator
+#: Watbesh_Rule_Pack/macros/luck_utils.cfg:54
+#: Watbesh_Rule_Pack/macros/luck_utils.cfg:77
+#: Watbesh_Rule_Pack/mods/luck.cfg:5 Watbesh_Rule_Pack/mods/luck.cfg:14
+msgid "MoreLuck Era"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Watbesh_Rule_Pack/macros/luck_utils.cfg:55
+msgid ""
+"All attacks hit less often and deal more damage.\n"
+"by watbesh"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Watbesh_Rule_Pack/macros/luck_utils.cfg:78
+msgid ""
+"All attacks hit less often and deal more damage.\n"
+"Hit-Rate: x$hit_var|\n"
+"Damage: x$dmg_var|"
 msgstr ""
 
 #. [option]
