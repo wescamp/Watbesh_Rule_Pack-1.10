@@ -2,123 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Watbesh_Rule_Pack-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-10 00:37-0500\n"
+"POT-Creation-Date: 2013-01-30 00:08-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. [multiplayer_side]: id=Loyalists, type=Lieutenant
-#: ./Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:61
-msgid "Loyalists"
-msgstr ""
-
-#. [multiplayer_side]: id=Rebels, type=Elvish Captain
-#: ./Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:76
-msgid "Rebels"
-msgstr ""
-
-#. [multiplayer_side]: id=Northerners, type=Orcish Warrior
-#: ./Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:91
-msgid "Northerners"
-msgstr ""
-
-#. [multiplayer_side]: id=Undead, type=Dark Sorcerer
-#: ./Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:105
-msgid "Undead"
-msgstr ""
-
-#. [multiplayer_side]: id=Knalgan Alliance, type=Dwarvish Steelclad
-#: ./Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:120
-msgid "Knalgan Alliance"
-msgstr ""
-
-#. [multiplayer_side]: id=Drakes, type=Drake Flare
-#: ./Watbesh_Rule_Pack/extra/__common_macros_extra.cfg:139
-msgid "Drakes"
-msgstr ""
-
-#: ./Watbesh_Rule_Pack/extra/_rf_utils_extra.cfg:20
-msgid ""
-"You can re-generate your faction (leader and recruits) <span color='#FF0000'>at turn 1 before you start moving leader or recruiting</span>.You will have fewer recruits temporarily after re-generating.\n"
-"Leaders in this Era:\n"
-"All the core units\n"
-"Recruits in this Era:\n"
-"All the core units"
-msgstr ""
-
-#. [era]: id=wat_fool_extra_{WAT_VERSION}
-#. [era]: id=wat_fool_{WAT_VERSION}
-#. [era]: id=wat_luck_extra_modest_{WAT_VERSION}
-#. [era]: id=wat_luck_extra_{WAT_VERSION}
-#. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/extra/fool_extra.cfg:5 ./Watbesh_Rule_Pack/extra/luck_extra.cfg:5 ./Watbesh_Rule_Pack/extra/luck_extra.cfg:13 ./Watbesh_Rule_Pack/macros/fool_utils.cfg:102 ./Watbesh_Rule_Pack/macros/fool_utils.cfg:122 ./Watbesh_Rule_Pack/mods/fool.cfg:5
-msgid "Fools Era"
-msgstr ""
-
-#. [era]: id=wat_fool_extra_{WAT_VERSION}
-#. [era]: id=wat_hide_extra_{WAT_VERSION}
-#. [era]: id=wat_luck_extra_{WAT_VERSION}
-#. [era]: id=wat_mt_extra_{WAT_VERSION}
-#. [era]: id=wat_rf_extra_{WAT_VERSION}
-#: ./Watbesh_Rule_Pack/extra/fool_extra.cfg:5 ./Watbesh_Rule_Pack/extra/hide_extra.cfg:5 ./Watbesh_Rule_Pack/extra/luck_extra.cfg:5 ./Watbesh_Rule_Pack/extra/mt_extra.cfg:5 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:5
-msgid " Extra"
-msgstr ""
-
-#. [era]: id=wat_hide_extra_{WAT_VERSION}
-#. [era]: id=wat_hide_{WAT_VERSION}
-#. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/extra/hide_extra.cfg:5 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:27 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:129 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:137 ./Watbesh_Rule_Pack/mods/hide.cfg:5
-msgid "Hide-Your-Faction Era"
-msgstr ""
-
-#. [multiplayer_side]: id=Hide, type=Fog Clearer
-#. [multiplayer_side]: id=Hide, type=Hide Faction Leader
-#: ./Watbesh_Rule_Pack/extra/hide_extra.cfg:10 ./Watbesh_Rule_Pack/mods/hide.cfg:10
-msgid "Hidden-Faction"
-msgstr ""
-
-#. [era]: id=wat_luck_extra_modest_{WAT_VERSION}
-#: ./Watbesh_Rule_Pack/extra/luck_extra.cfg:13
-msgid " Extra (Modest)"
-msgstr ""
-
-#. [era]: id=wat_mt_extra_{WAT_VERSION}
-#. [era]: id=wat_mt_{WAT_VERSION}
-#. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/extra/mt_extra.cfg:5 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:265 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:305 ./Watbesh_Rule_Pack/mods/mt.cfg:5
-msgid "More-trait Era"
-msgstr ""
-
-#. [era]: id=wat_rf_classic_{WAT_VERSION}
-#. [era]: id=wat_rf_extra_classic_{WAT_VERSION}
-#. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
-#. [era]: id=wat_rf_extra_{WAT_VERSION}
-#. [era]: id=wat_rf_{WAT_VERSION}
-#. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:5 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:26 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:47 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:220 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:327 ./Watbesh_Rule_Pack/mods/rf.cfg:5 ./Watbesh_Rule_Pack/mods/rf.cfg:29
-msgid "Random-factions Era"
-msgstr ""
-
-#. [multiplayer_side]: id=Random_Faction, type=Fog Clearer
-#. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Classic
-#. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Default
-#. [multiplayer_side]: id=Random_Faction, type=Random Faction Leader Lions
-#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:10 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:31 ./Watbesh_Rule_Pack/extra/rf_extra.cfg:52 ./Watbesh_Rule_Pack/mods/rf.cfg:10 ./Watbesh_Rule_Pack/mods/rf.cfg:34
-msgid "Random-faction"
-msgstr ""
-
-#. [era]: id=wat_rf_extra_classic_{WAT_VERSION}
-#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:26
-msgid " Extra (Classic)"
-msgstr ""
-
-#. [era]: id=wat_rf_extra_lions_{WAT_VERSION}
-#: ./Watbesh_Rule_Pack/extra/rf_extra.cfg:47
-msgid " Extra (Lions)"
-msgstr ""
 
 #. [trait]: id=wat_fool, description={WAT_STR_ZERO_UPKEEP} + {WAT_STR_AND}
 #: ./Watbesh_Rule_Pack/macros/fool_utils.cfg:6
@@ -130,6 +20,12 @@ msgstr ""
 msgid "female^fool"
 msgstr ""
 
+#. [era]: id=wat_fool_{WAT_VERSION}
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/fool_utils.cfg:102 ./Watbesh_Rule_Pack/macros/fool_utils.cfg:122 ./Watbesh_Rule_Pack/mods/fool.cfg:5
+msgid "Fools Era"
+msgstr ""
+
 #. [message]: speaker=narrator
 #: ./Watbesh_Rule_Pack/macros/fool_utils.cfg:103
 msgid ""
@@ -138,7 +34,7 @@ msgid ""
 msgstr ""
 
 #. [set_menu_item]: id=description
-#: ./Watbesh_Rule_Pack/macros/fool_utils.cfg:117 ./Watbesh_Rule_Pack/macros/luck_utils.cfg:72 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:300 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:322
+#: ./Watbesh_Rule_Pack/macros/fool_utils.cfg:117 ./Watbesh_Rule_Pack/macros/luck_utils.cfg:72 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:308 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:348
 msgid "description"
 msgstr ""
 
@@ -150,6 +46,156 @@ msgid ""
 " Killing a unit with <span style='italic'>plague</span> weapon special gives a regular walking corpse.\n"
 " Unit will not appear on a village (same as <span style='italic'>plague</span>)\n"
 " Unit will not appear if <span style='italic'>a leader</span> kills or is killed."
+msgstr ""
+
+#. [option]
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:5
+msgid " gold"
+msgstr ""
+
+#. [option]
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:14
+msgid " income"
+msgstr ""
+
+#. [option]
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:23
+msgid " gold per village"
+msgstr ""
+
+#. [era]: id=wat_hc_{WAT_VERSION}
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:58 ./Watbesh_Rule_Pack/macros/hc_utils.cfg:66 ./Watbesh_Rule_Pack/mods/hc.cfg:5
+msgid "Handicap Era"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:59
+msgid ""
+"You can increase/decrease starting gold, base income, gold per village, fog, and shroud.\n"
+"by watbesh"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:67
+msgid ""
+"Modify side?\n"
+"side: $side_number| ($current_side.name|)"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:71
+msgid "Use default setting"
+msgstr ""
+
+#. [chat]
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:75 ./Watbesh_Rule_Pack/macros/hc_utils.cfg:313
+msgid "side $side_number| ($current_side.name|) uses default settings."
+msgstr ""
+
+#. [option]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:80
+msgid "Change gold and view settings"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:102
+msgid ""
+"Change your start gold...\n"
+"side: $side_number| ($current_side.name|)\n"
+"current gold: $current_side.gold|"
+msgstr ""
+
+#. [option]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:106 ./Watbesh_Rule_Pack/macros/hc_utils.cfg:150
+msgid "Decide"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:146
+msgid ""
+"Change your base income...\n"
+"side: $side_number| ($current_side.name|)\n"
+"current income: $current_side.income|"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:171
+msgid ""
+"Change your gold per village...\n"
+"side: $side_number| ($current_side.name|)\n"
+"default village gold: $current_side.village_gold|"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:184
+msgid ""
+"Change your fog and shroud...\n"
+"side: $side_number| ($current_side.name|)\n"
+"default fog: $current_side.fog|\n"
+"default shroud: $current_side.shroud|"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:188
+msgid "None"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:189
+msgid "Fog only"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:190
+msgid "Shroud only"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:191
+msgid "Fog and Shroud"
+msgstr ""
+
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:198
+msgid "Side $side_number| ($current_side.name|) changed its start gold: $hc_start| -> $current_side.gold|"
+msgstr ""
+
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:207
+msgid "Side $side_number| ($current_side.name|) changed its base income: $hc_base| -> $current_side.income|"
+msgstr ""
+
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:216
+msgid "Side $side_number| ($current_side.name|) changed its gold per village: $hc_village| -> $current_side.village_gold|"
+msgstr ""
+
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:233
+msgid "Now side $side_number| ($current_side.name|) has fog of war."
+msgstr ""
+
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:250
+msgid "Now side $side_number| ($current_side.name|) ignores fog of war."
+msgstr ""
+
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:267
+msgid "Now side $side_number| ($current_side.name|) has shroud."
+msgstr ""
+
+#. [chat]: speaker=Handicap
+#: ./Watbesh_Rule_Pack/macros/hc_utils.cfg:284
+msgid "Now side $side_number| ($current_side.name|) ignores shroud."
+msgstr ""
+
+#. [era]: id=wat_hide_{WAT_VERSION}
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_utils.cfg:27 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:129 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:137 ./Watbesh_Rule_Pack/mods/hide.cfg:5
+msgid "Hide-Your-Faction Era"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -170,7 +216,7 @@ msgid "Choose faction:"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/hide_utils.cfg:159 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:284 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:244
+#: ./Watbesh_Rule_Pack/macros/hide_utils.cfg:159 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:292 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:270
 msgid "CAUTION"
 msgstr ""
 
@@ -206,8 +252,14 @@ msgstr ""
 msgid "Nothing"
 msgstr ""
 
+#. [era]: id=wat_mt_{WAT_VERSION}
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:266
+#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:273 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:313 ./Watbesh_Rule_Pack/mods/mt.cfg:5
+msgid "More-trait Era"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:274
 msgid ""
 "A recruited unit can have one more trait if you pay 2 gold more.\n"
 "<span color='#FF0000' weight='bold'>WARNING: Undo-ing recruit will not pay back gold for trait.</span>\n"
@@ -215,17 +267,17 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:285
+#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:293
 msgid "side $side_number| is controlled by AI. This side cannot give extra traits to its units."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:306
+#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:314
 msgid "A recruited unit can have one more trait if you pay 2 gold more."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:340
+#: ./Watbesh_Rule_Pack/macros/mt_utils.cfg:348
 msgid ""
 "Which trait to give? (needs 2 gold more)\n"
 "Type: $unit_type_store.name|\n"
@@ -250,45 +302,77 @@ msgid ""
 "All recruits from Default Era"
 msgstr ""
 
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:70
+msgid ""
+"You can re-generate your faction (leader and recruits) <span color='#FF0000'>at turn 1 before you start moving leader or recruiting</span>.You will have fewer recruits temporarily after re-generating.\n"
+"Leaders in this Era:\n"
+"All the core units\n"
+"Recruits in this Era:\n"
+"All the core units except for Fire Dragon"
+msgstr ""
+
+#. [era]: id=wat_rf_classic_{WAT_VERSION}
+#. [era]: id=wat_rf_lions_{WAT_VERSION}
+#. [era]: id=wat_rf_{WAT_VERSION}
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:221
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:246 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:353 ./Watbesh_Rule_Pack/mods/rf.cfg:5 ./Watbesh_Rule_Pack/mods/rf.cfg:29 ./Watbesh_Rule_Pack/mods/rf.cfg:53
+msgid "Patchwork Era"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:247
 msgid ""
 "You can re-generate your faction (leader and recruits) <span color='#FF0000'>at turn 1 before you start moving leader or recruiting</span>.You will have fewer recruits temporarily after re-generating.\n"
 "by watbesh"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:245
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:271
 msgid "side $side_number| is controlled by AI. This side cannot re-generate the faction."
 msgstr ""
 
 #. [set_menu_item]: id=reorganize
-#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:339
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:365
 msgid "Re-generate Faction"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:360
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:386
 msgid "You will be able to recruit $array_length_minus_one| types of units."
 msgstr ""
 
 #. [option]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:363
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:389
 msgid "Re-generate faction"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:370
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:396
 msgid "Your faction is re-generated."
 msgstr ""
 
 #. [option]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:382
+#: ./Watbesh_Rule_Pack/macros/rf_utils.cfg:408
 msgid "Cancel"
+msgstr ""
+
+#. [multiplayer_side]: id=Hide, type=Fog Clearer
+#: ./Watbesh_Rule_Pack/mods/hide.cfg:10
+msgid "Hidden-Faction"
+msgstr ""
+
+#. [multiplayer_side]: id=Patchwork, type=Fog Clearer
+#: ./Watbesh_Rule_Pack/mods/rf.cfg:10 ./Watbesh_Rule_Pack/mods/rf.cfg:34 ./Watbesh_Rule_Pack/mods/rf.cfg:58
+msgid "Patchwork"
 msgstr ""
 
 #. [era]: id=wat_rf_classic_{WAT_VERSION}
 #: ./Watbesh_Rule_Pack/mods/rf.cfg:29
 msgid " Classic"
+msgstr ""
+
+#. [era]: id=wat_rf_lions_{WAT_VERSION}
+#: ./Watbesh_Rule_Pack/mods/rf.cfg:53
+msgid " Lions"
 msgstr ""
 
