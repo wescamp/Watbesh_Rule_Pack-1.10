@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Watbesh_Rule_Pack-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-01-30 00:08-0500\n"
+"POT-Creation-Date: 2013-02-12 13:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 
 #. [set_menu_item]: id=description
-#: ./Watbesh_Rule_Pack/macros/fool_utils.cfg:117 ./Watbesh_Rule_Pack/macros/luck_utils.cfg:72 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:308 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:348
+#: ./Watbesh_Rule_Pack/macros/fool_utils.cfg:117 ./Watbesh_Rule_Pack/macros/luck_utils.cfg:69 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:308 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:348
 msgid "description"
 msgstr ""
 
@@ -192,15 +192,55 @@ msgstr ""
 msgid "Now side $side_number| ($current_side.name|) ignores shroud."
 msgstr ""
 
+#. [era]: id=wat_hide_double_{WAT_VERSION}
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:6 ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:127 ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:253 ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:345 ./Watbesh_Rule_Pack/mods/hide_double.cfg:5
+msgid " Double"
+msgstr ""
+
+#. [era]: id=wat_hide_double_{WAT_VERSION}
 #. [era]: id=wat_hide_{WAT_VERSION}
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/hide_utils.cfg:27 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:129 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:137 ./Watbesh_Rule_Pack/mods/hide.cfg:5
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:6 ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:127 ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:253 ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:345 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:27 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:129 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:137 ./Watbesh_Rule_Pack/mods/hide.cfg:5 ./Watbesh_Rule_Pack/mods/hide_double.cfg:5
 msgid "Hide-Your-Faction Era"
 msgstr ""
 
 #. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:7
+msgid "Choose your faction {MAIN_SUB}:"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:128
+msgid "Choose your leader {MAIN_SUB}:"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:254
+msgid ""
+"You can choose your factions without letting your opponents know them.\n"
+"You have two leaders with recruits for each.\n"
+"by watbesh"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:268 ./Watbesh_Rule_Pack/macros/hide_utils.cfg:159 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:292 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:270
+msgid "CAUTION"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:269
+msgid "side $side_number| is controlled by AI. This side gets a Random faction and one supporter."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./Watbesh_Rule_Pack/macros/hide_double_utils.cfg:346
+msgid "Now you are ready to play! Your supporter is in the recall list."
+msgstr ""
+
+#. [message]: speaker=narrator
 #: ./Watbesh_Rule_Pack/macros/hide_utils.cfg:28
-msgid "Choose Leader:"
+msgid "Choose your leader:"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -212,12 +252,7 @@ msgstr ""
 
 #. [message]: speaker=narrator
 #: ./Watbesh_Rule_Pack/macros/hide_utils.cfg:138
-msgid "Choose faction:"
-msgstr ""
-
-#. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/hide_utils.cfg:159 ./Watbesh_Rule_Pack/macros/mt_utils.cfg:292 ./Watbesh_Rule_Pack/macros/rf_utils.cfg:270
-msgid "CAUTION"
+msgid "Choose your faction:"
 msgstr ""
 
 #. [message]: speaker=narrator
@@ -228,7 +263,7 @@ msgstr ""
 #. [era]: id=wat_luck_modest_{WAT_VERSION}
 #. [era]: id=wat_luck_{WAT_VERSION}
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/luck_utils.cfg:54 ./Watbesh_Rule_Pack/macros/luck_utils.cfg:77 ./Watbesh_Rule_Pack/mods/luck.cfg:5 ./Watbesh_Rule_Pack/mods/luck.cfg:14
+#: ./Watbesh_Rule_Pack/macros/luck_utils.cfg:54 ./Watbesh_Rule_Pack/macros/luck_utils.cfg:74 ./Watbesh_Rule_Pack/mods/luck.cfg:5 ./Watbesh_Rule_Pack/mods/luck.cfg:14
 msgid "MoreLuck Era"
 msgstr ""
 
@@ -240,7 +275,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./Watbesh_Rule_Pack/macros/luck_utils.cfg:78
+#: ./Watbesh_Rule_Pack/macros/luck_utils.cfg:75
 msgid ""
 "All attacks hit less often and deal more damage.\n"
 "Hit-Rate: x$hit_var|\n"
@@ -357,7 +392,7 @@ msgid "Cancel"
 msgstr ""
 
 #. [multiplayer_side]: id=Hide, type=Fog Clearer
-#: ./Watbesh_Rule_Pack/mods/hide.cfg:10
+#: ./Watbesh_Rule_Pack/mods/hide.cfg:10 ./Watbesh_Rule_Pack/mods/hide_double.cfg:10
 msgid "Hidden-Faction"
 msgstr ""
 
